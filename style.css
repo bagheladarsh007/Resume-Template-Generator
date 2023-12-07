@@ -236,3 +236,15 @@ h3{
     margin: 10px 0;
 }
 
+@media only screen and (max-width: 650px) {
+    .Container {
+        flex-direction: column; /* Switch back to column layout on smaller screens */
+    }
+    .container1{
+        width: 100%;
+    }
+    .container2{
+        width:100%;
+    }
+}
+
